@@ -1,35 +1,63 @@
-# How to Setup & Run this Project
+# 📚 Learning Management System
 
-## 🔗 Important Links
+A full‑stack LMS platform that allows instructors to create and sell
+courses while enabling students to enroll and track learning progress.
 
-- [Install Node.js](https://nodejs.org/en/download/) (Ignore if already installed)
-- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-- [Cloudinary](https://cloudinary.com/users/register_free)
-- [Clerk](https://clerk.com/)
-- [Stripe](https://dashboard.stripe.com/login)
-- [Vercel](https://vercel.com/)
+## 🚀 Tech Stack
 
----
+-   React.js
+-   Node.js
+-   Express.js
+-   MongoDB
+-   Redux Toolkit
+-   Tailwind CSS
+-   Clerk Authentication
+-   Stripe Payments
+-   Vercel
 
-## 🛠️ Setup Instructions
+## ✨ Key Features
 
-### ⚙️ Server Setup (Run First)
+-   Instructor dashboard for creating and managing courses
+-   Student dashboard for enrolled courses
+-   Role‑based authentication using Clerk
+-   Secure course purchase with Stripe
+-   Video lessons and course modules
+-   Learning progress tracking system
+-   Responsive UI built with Tailwind CSS
 
-1. Open the project folder in **VS Code**.
-2. Setup MongoDB & obtain your `MongoURI` from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
-3. Setup your image storage on [Cloudinary](https://cloudinary.com/users/register_free).
-4. Setup user authentication with [Clerk](https://clerk.com/) and configure **Clerk Webhooks**.
-5. Setup payments with [Stripe](https://dashboard.stripe.com/login).
-6. Push the project to GitHub and deploy the backend to [Vercel](https://vercel.com/) to get your backend URL.
-7. Add the backend URL to **Clerk Webhooks** and **Stripe Webhook** configurations.
+## 🌐 Live Demo
 
-> ⚠️ Make sure the backend is deployed and running **before running the client**.
+Add your deployed link here
 
----
+## 📸 Screenshots
 
-### 💻 Client Setup
+Add screenshots: - Course listing page - Instructor dashboard - Student
+learning dashboard
 
-1. Open the client folder in your terminal.
-2. Install dependencies using the following command:
-   ```bash
-   npm install
+------------------------------------------------------------------------
+
+# ⚙️ Project Setup
+
+## Prerequisites
+
+Install Node.js and setup MongoDB Atlas.
+
+## Server Setup
+
+1.  Configure MongoDB connection
+2.  Setup Clerk authentication
+3.  Configure Stripe payment gateway
+
+## Run Project
+
+Install dependencies
+
+    npm install
+
+Run development server
+
+    npm run dev
+
+## Author
+
+Ram Pravesh Singh
