@@ -3,6 +3,10 @@
 A full‑stack LMS platform that allows instructors to create and sell
 courses while enabling students to enroll and track learning progress.
 
+## 🌐 Live Demo
+
+🚀 https://lms-frontend-delta-nine.vercel.app/
+
 ## 🚀 Tech Stack
 
 -   React.js
@@ -15,6 +19,26 @@ courses while enabling students to enroll and track learning progress.
 -   Stripe Payments
 -   Vercel
 
+## 📸 Screenshots
+
+### Homepage
+![Homepage](screenshots/home.PNG)
+
+### Course Listings Page
+![Courses](screenshots/course-list.PNG)
+
+### Course Details Page
+![Course Details](screenshots/course-details.PNG)
+
+### Educator Dashboard
+![Dashboard](screenshots/dashboard.PNG)
+
+### Add Course
+![Add Course](screenshots/add-course.PNG)
+
+### Payments
+![Payments](screenshots/payment.PNG)
+
 ## ✨ Key Features
 
 -   Instructor dashboard for creating and managing courses
@@ -24,15 +48,6 @@ courses while enabling students to enroll and track learning progress.
 -   Video lessons and course modules
 -   Learning progress tracking system
 -   Responsive UI built with Tailwind CSS
-
-## 🌐 Live Demo
-
-Add your deployed link here
-
-## 📸 Screenshots
-
-Add screenshots: - Course listing page - Instructor dashboard - Student
-learning dashboard
 
 ------------------------------------------------------------------------
 
